@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Open Study :: 문제 만들기</title>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/parse-1.4.2.js"></script>
+    <script src="js/custom/parse_key.js"></script>
+    <script src="js/custom/make_quiz.js"></script>
+
+    <!---------------------------- CSS Import----------------------------->
+    <link rel="stylesheet" href="css/custom/index.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom/title.css">
+    <link rel="stylesheet" href="css/custom/make_quiz.css">
+</head>
+<body>
+<div id="container" class="row">
+    <div class="col-md-offset-3 col-md-6 text-center">
+        <!-- Header -->
+        <h1 class="title"><span id="subset1">O</span>pen <span id="subset2">S</span>Tudy</h1>
+        <!-- 버튼 배치 -->
+        <hr>
+        <h6>현재 문제 수 : <span id="quizCount"></span></h6>
+        <form class="text-left center-block">
+            <div class="form-group">
+                <label for="level">난이도</label>
+                <input type="text" class="form-control" id="level" placeholder="난이도를 입력해 주세요">
+            </div>
+
+            <div class="form-group">
+                <label for="question">문제</label>
+                <textarea class="form-control" id="question" placeholder="문제를 입력해 주세요"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="answer">정답</label>
+                <input type="text" class="form-control" id="answer" placeholder="정답을 입력해 주세요">
+            </div>
+
+            <button type="submit" id="saveBtn" class="btn btn-primary" style="width: 100%">저장</button>
+            <a type="submit" class="btn btn-default" href="make_module.html" style="width: 100%">완료</a>
+        </form>
+        <hr>
+        <!-- Footer -->
+        <h5 class="footer"> Created by H.G  <small>Ver 1.0</small></h5>
+    </div>
+</div>
+</body>
+</html>

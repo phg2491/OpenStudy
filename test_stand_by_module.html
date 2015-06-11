@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Open Study :: 문제 풀기</title>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/parse-1.4.2.js"></script>
+    <script src="js/custom/parse_key.js"></script>
+    <script src="js/custom/test_standby.js"></script>
+
+    <!---------------------------- CSS Import----------------------------->
+    <link rel="stylesheet" href="css/custom/index.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom/title.css">
+    <link rel="stylesheet" href="css/custom/test_start.css">
+
+</head>
+<body>
+<div id="container" class="row">
+    <div class="col-md-offset-3 col-md-6 text-center">
+        <!-- Header -->
+        <h1 class="title"><span id="subset1">O</span>pen <span id="subset2">S</span>Tudy</h1>
+        <!-- 버튼 배치 -->
+        <hr>
+        <form class="text-left center-block">
+            <div class="form-group">
+                <label for="selectedModuleName">선택된 모듈명</label>
+                <input type="text" class="form-control" id="selectedModuleName">
+            </div>
+
+            <div class="form-group">
+                <label for="field">분야</label>
+                <textarea class="form-control" id="field"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="simpleScript">간략한 설명</label>
+                <input type="text" class="form-control" id="simpleScript">
+            </div>
+
+            <div class="form-group">
+                <label for="author">만든이</label>
+                <input type="text" class="form-control" id="author">
+            </div>
+        </form>
+        <a href="test_start.html" id="nextBtn" class="btn btn-primary" style="width: 70%">시작</a>
+        <a class="btn btn-default" id="endBtn" href="test_select_module.html" style="width: 70%">뒤로 가기</a>
+        <hr>
+        <!-- Footer -->
+        <h5 class="footer"> Created by H.G  <small>Ver 1.0</small></h5>
+    </div>
+</div>
+</body>
+</html>
